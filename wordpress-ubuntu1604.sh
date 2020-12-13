@@ -92,7 +92,7 @@ mysql -uroot -p$DB_PASSWORD -e "GRANT ALL PRIVILEGES ON wordpress.* TO '$DBUSER'
 service mysql restart
  
 #installing php
-apt-get install php7.0 php-pear libapache2-mod-php7.0 php7.0-mysql -y php-gd
+apt-get install php7.4 php-pear libapache2-mod-php7.4 php7.4-mysql -y php-gd
 
 # making directory for php? giving apache permissions to that log? restarting php
 mkdir /var/log/php
